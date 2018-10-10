@@ -2,7 +2,7 @@
   height: 300px;
   width: 300px;
   border-radius: 300px;
-  margin-top: 60px;
+  margin-top: 40px;
   border: 9px solid #42cef4;
   -webkit-transition: -webkit-transform 0.2s;
   -moz-transition: -moz-transform 0.2s;
@@ -58,4 +58,8 @@ body{
    -o-transform: scale(1.1);
    -ms-transform: scale(1.1);
    transform: scale(1.1)
+}
+
+.drop:hover{
+  background-color: #e6e8ed;
 }
