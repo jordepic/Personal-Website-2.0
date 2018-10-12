@@ -63,3 +63,12 @@ body{
 .drop:hover{
   background-color: #e6e8ed;
 }
+
+#ytbchannel{
+  text-decoration: none;
+  color: #212529;
+}
+
+#ytbchannel:hover{
+  color: #42cef4;;
+}
