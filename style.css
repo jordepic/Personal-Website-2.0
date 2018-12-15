@@ -10,11 +10,16 @@
   -ms-transition: -ms-transform 0.2s;
   transition: transform 0.2s;
   cursor: pointer;
-
-
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1.5s; /* Firefox < 16 */
+  -ms-animation: fadein 1.5s; /* Internet Explorer */
+  -o-animation: fadein 1.5s; /* Opera < 12.1 */
+   animation: fadein 1.5s;
 }
 
-body{
+.fadeup{
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
    -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
@@ -22,10 +27,7 @@ body{
    -ms-animation: fadein 1.5s; /* Internet Explorer */
    -o-animation: fadein 1.5s; /* Opera < 12.1 */
     animation: fadein 1.5s;
-
 }
-
-
 
 
 @keyframes fadein
@@ -70,11 +72,21 @@ body{
   background-color: #e6e8ed;
 }
 
+.resume{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-animation: fadein 1.5s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 1.5s; /* Firefox < 16 */
+  -ms-animation: fadein 1.5s; /* Internet Explorer */
+  -o-animation: fadein 1.5s; /* Opera < 12.1 */
+   animation: fadein 1.5s;
+}
+
 #ytbchannel{
   text-decoration: none;
-  color: #212529;
+  color: #42cef4;
 }
 
 #ytbchannel:hover{
-  color: #42cef4;;
+  color: #212529;
 }
